@@ -1,0 +1,54 @@
+.menu {
+        font-family: 'Roboto', sans-serif;
+}
+
+.menu li {
+        float: left;
+        background: #3278BF;
+        position: relative;
+}
+
+.menu-title ul{     
+        width: 132px;
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 40px;
+}
+
+.menu-item li{        
+        float: none;
+        width: 144px;
+        text-align: center;
+        background: #3188E9;        
+}
+
+.menu li a{        
+        display: block;
+        width: 120px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px 12px;
+}
+
+.menu-title:hover ul{
+        display: block;
+}
+
+.menu li:hover{
+        background:  #160360;
+}
+
+.menu-item .menu-item1 {
+        left: 144px;
+        top: 0px;
+}
+
+.menu-item .menu-item1 li{
+        display: none;
+}
+
+.menu-item li:hover .menu-item1 li{
+        display: block;
+}
